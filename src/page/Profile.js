@@ -1,16 +1,14 @@
 import Layout from '../shared/Layout';
-import test from '../data/test.png';
 import styles from './Home.module.css';
 
-function Home(){
+function Profile(){
     return (
         <Layout>
             <div className={styles.text}>
-                <img src={test} alt="test"/>
-                <div>안녕하수깡</div>
+                <div>프로필</div>
             </div>
         </Layout>
     );
 }
 
-export default Home;
+export default Profile;
