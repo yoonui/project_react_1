@@ -1,9 +1,11 @@
 import Layout from '../../shared/Layout';
+import Data from '../../data/Data.json';
+import ContentCard from '../../shared/ContentCard';
 
 function Notice3(){
     return (
         <Layout>
-            <div>공지3</div>
+            <ContentCard data={Data["Notice"][2]} key="Notice1"/>
         </Layout>
     );
 }

@@ -1,12 +1,13 @@
 import Layout from '../shared/Layout';
-import styles from './Home.module.css';
+import Data from '../data/Data.json';
+import TitleCard from '../shared/TitleCard';
 
 function Diary(){
     return (
         <Layout>
-            <div className={styles.text}>
-                <div>일기장</div>
-            </div>
+            {Data["Diary"].map(function (data, index){
+                return <TitleCard data={data} key={`Notice-${index}`}/>
+            })}
         </Layout>
     );
 }
