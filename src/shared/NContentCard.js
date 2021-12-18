@@ -1,6 +1,6 @@
-import styles from './ContentCard.module.css';
+import styles from './NContentCard.module.css';
 
-function ContentCard({ data }){
+function NContentCard({ data }){
     return(
         <div className={styles.box}>
                 <table className={styles.table}>
@@ -18,4 +18,4 @@ function ContentCard({ data }){
     );
 }
 
-export default ContentCard;
+export default NContentCard;

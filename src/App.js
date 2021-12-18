@@ -10,6 +10,13 @@ import Notice2 from './page/notice/Notice2';
 import Notice3 from './page/notice/Notice3';
 import Notice4 from './page/notice/Notice4';
 
+import Diary1 from './page/diary/Diary1';
+import Diary2 from './page/diary/Diary2';
+import Diary3 from './page/diary/Diary3';
+import Diary4 from './page/diary/Diary4';
+import Diary5 from './page/diary/Diary5';
+import Diary6 from './page/diary/Diary6';
+
 function App() {
   return (
     <div>
@@ -19,10 +26,18 @@ function App() {
         <Route path="/profile" element={<Profile />}/>
         <Route path="/diary" element={<Diary />}/>
         <Route path="/myself" element={<Myself />}/>
-        <Route path="/notice/notice1" element={<Notice1 />}/>
-        <Route path="/notice/notice2" element={<Notice2 />}/>
-        <Route path="/notice/notice3" element={<Notice3 />}/>
-        <Route path="/notice/notice4" element={<Notice4 />}/>
+
+        <Route path="/board/notice1" element={<Notice1 />}/>
+        <Route path="/board/notice2" element={<Notice2 />}/>
+        <Route path="/board/notice3" element={<Notice3 />}/>
+        <Route path="/board/notice4" element={<Notice4 />}/>
+        
+        <Route path="/board/diary1" element={<Diary1 />}/>
+        <Route path="/board/diary2" element={<Diary2 />}/>
+        <Route path="/board/diary3" element={<Diary3 />}/>
+        <Route path="/board/diary4" element={<Diary4 />}/>
+        <Route path="/board/diary5" element={<Diary5 />}/>
+        <Route path="/board/diary6" element={<Diary6 />}/>
       </Routes>
     </div>
   );

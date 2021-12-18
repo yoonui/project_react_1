@@ -1,11 +1,11 @@
 import Layout from '../../shared/Layout';
 import Data from '../../data/Data.json';
-import ContentCard from '../../shared/ContentCard';
+import NContentCard from '../../shared/NContentCard';
 
 function Notice4(){
     return (
         <Layout>
-            <ContentCard data={Data["Notice"][3]} key="Notice1"/>
+            <NContentCard data={Data["Notice"][3]} key="Notice4"/>
         </Layout>
     );
 }

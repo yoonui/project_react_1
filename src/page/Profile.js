@@ -6,7 +6,6 @@ function Profile(){
     return (
         <Layout>
             <div className={styles.box}>
-                <div className={styles.start}>:: 프로필 :: </div>
                 <div className={styles.oneText}>"울랄라"</div>
                 <img src={test2} alt="캐릭터 외관" />
                 <div className={styles.content}>

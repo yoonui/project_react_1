@@ -1,12 +1,13 @@
 import Layout from '../shared/Layout';
-import styles from './Home.module.css';
+import Data from '../data/Data.json';
+import MyselfCard from '../shared/MyselfCard';
 
 function Myself(){
     return (
         <Layout>
-            <div className={styles.text}>
-                <div>혼잣말</div>
-            </div>
+            {Data["Myself"].map(function (data, index){
+                return <MyselfCard data={data} key={`Myself-${index}`}/>
+            })}
         </Layout>
     );
 }
