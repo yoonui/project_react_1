@@ -5,7 +5,9 @@
 .oneText {
     margin: 20px;
     font-size: 25px;
-    color: blue;
+    color: #5B99A6;
+    font-weight: bold;
+    letter-spacing: 5px;
 }
 
 .content {
@@ -14,5 +16,6 @@
 
 .text {
     margin: 10px;
+    letter-spacing: 3px;
 }
 

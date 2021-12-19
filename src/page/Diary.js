@@ -5,7 +5,7 @@ import styles from './Board.module.css';
 
 function Diary(){
     return (
-        <Layout>
+        <Layout activeMenu="Diary">
             <div className={styles.boardName}>♥ 일기장 ♥</div>
             {Data["Diary"].map(function (data, index){
                 return <TitleCard data={data} key={`Diary-${index}`}/>

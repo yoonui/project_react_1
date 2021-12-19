@@ -4,7 +4,7 @@ import styles from './Home.module.css';
 
 function Home(){
     return (
-        <Layout>
+        <Layout activeMenu="Home">
             <div className={styles.text}>
                 <img src={test} alt="test"/>
                 <div>안녕하수깡</div>

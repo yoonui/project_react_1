@@ -3,7 +3,7 @@ import Home from './page/Home';
 import Notice from './page/Notice';
 import Profile from './page/Profile';
 import Diary from './page/Diary';
-import Myself from './page/Myself';
+import Guest from './page/Guest';
 
 import Notice1 from './page/notice/Notice1';
 import Notice2 from './page/notice/Notice2';
@@ -25,7 +25,7 @@ function App() {
         <Route path="/notice" element={<Notice />}/>
         <Route path="/profile" element={<Profile />}/>
         <Route path="/diary" element={<Diary />}/>
-        <Route path="/myself" element={<Myself />}/>
+        <Route path="/guest" element={<Guest />}/>
 
         <Route path="/board/notice1" element={<Notice1 />}/>
         <Route path="/board/notice2" element={<Notice2 />}/>

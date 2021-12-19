@@ -3,8 +3,7 @@
     margin: 50px 20% 0 20%;
     height: 40%;
     background-color: #fff;
-    border: solid 2px black;
-    border-radius: 40px;
+    border-radius: 20px;
     padding: 10px 20px;
     justify-content: space-between;
 }
@@ -15,4 +14,21 @@
     padding: 10px 0;
     color: black;
     text-decoration: none;
+}
+
+.list:hover {
+    text-decoration: underline;
+}
+
+.focused {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 0;
+    color: #5B99A6;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.focused:hover {
+    text-decoration: underline;
 }

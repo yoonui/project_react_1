@@ -4,7 +4,7 @@ import NContentCard from '../../shared/NContentCard';
 
 function Notice1(){
     return (
-        <Layout>
+        <Layout activeMenu="Notice">
             <NContentCard data={Data["Notice"][0]} key="Notice1"/>
         </Layout>
     );

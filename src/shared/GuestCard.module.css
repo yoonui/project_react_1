@@ -1,0 +1,30 @@
+.box {
+    padding: 10px;
+}
+
+.smallBox1 {
+    background-color: #B6E8F2;
+    padding: 7px 0px 7px 20px;
+    border-top: 1px #5B99A6 solid;
+    display: flex;
+}
+
+.date {
+    margin-left: 50px;
+}
+
+.img {
+    width: 200px;
+}
+
+.smallBox2 {
+    margin-left: 20px;
+    padding: 10px;
+    display: flex;
+}
+
+.content {
+    padding: 20px;
+    color: #5B99A6;
+    font-size: 18px;
+}

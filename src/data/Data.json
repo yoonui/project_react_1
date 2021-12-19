@@ -63,21 +63,24 @@
             "content" : "일기장내용6"
         }
     ],
-    "Myself" : [
+    "Guest" : [
         {
-            "id" : "myself1",
+            "id" : "guest1",
+            "no": "1",
             "date" : "2021-12-18 18:08",
-            "content" : "혼잣말중얼중얼1"
+            "content" : "방명록중얼중얼1"
         },
         {
-            "id" : "myself2",
+            "id" : "guest2",
+            "no": "2",
             "date" : "2021-12-18 18:08",
-            "content" : "혼잣말중얼중얼2"
+            "content" : "방명록중얼중얼2"
         },
         {
-            "id" : "myself3",
+            "id" : "guest3",
+            "no": "3",
             "date" : "2021-12-18 18:08",
-            "content" : "혼잣말중얼중얼3"
+            "content" : "방명록중얼중얼3"
         }
     ]
 }

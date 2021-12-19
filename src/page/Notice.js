@@ -5,7 +5,7 @@ import styles from './Board.module.css';
 
 function Notice(){
     return (
-        <Layout>
+        <Layout activeMenu="Notice">
         <div className={styles.boardName}>♥ 공지사항 ♥</div>
             {Data["Notice"].map(function (data, index){
                 return <TitleCard data={data} key={`Notice-${index}`}/>

@@ -4,7 +4,7 @@ import test2 from '../data/test2.png';
 
 function Profile(){
     return (
-        <Layout>
+        <Layout activeMenu="Profile">
             <div className={styles.box}>
                 <div className={styles.oneText}>"울랄라"</div>
                 <img src={test2} alt="캐릭터 외관" />
