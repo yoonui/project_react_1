@@ -3,13 +3,22 @@ body {
 }
 
 .layout {
-    margin: 30px 20% 0 20%;
+    margin: 30px 20% 40px 20%;
     background-color: #fff;
     border-radius: 20px;
     padding: 10px 20px;
 }
 
 .content {
-    margin: 0 auto;
     padding: 30px;
+}
+
+
+@media screen and (max-width:861px){
+    .layout {
+        margin: 30px 5% 40px 5%;
+    }
+    .content {
+        padding: 10px;
+    }
 }

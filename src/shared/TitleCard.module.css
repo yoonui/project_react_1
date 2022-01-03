@@ -27,3 +27,22 @@
 .link:hover {
     text-decoration: underline;
 }
+
+
+@media screen and (max-width:861px){
+    .box {
+        margin: 10px 0;
+    }
+    .table {
+        margin : 15px;
+    }
+    .title {
+        padding: 5px;
+        font-size: 15px;
+    }
+    .date {
+        padding: 5px;
+        font-size: 13px;
+    }
+    
+}

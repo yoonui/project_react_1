@@ -14,6 +14,38 @@
     border-bottom: 1px solid #ccc;
 }
 
+.img {
+    margin-top: 40px;
+}
+
 .content {
     margin-top: 40px;
+}
+
+.text {
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+
+@media screen and (max-width:861px){
+    .title{
+        font-size: 23px;
+        margin-bottom: 17px;
+    }
+    .date {
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+    .img {
+        width: 290px;
+        transform: translateX(-6.5%);
+        margin-top: 30px;
+    }
+    .content {
+        margin-top: 30px;
+    }
+    .text {
+        font-size: 14px;
+    }
 }

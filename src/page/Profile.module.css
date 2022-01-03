@@ -19,3 +19,20 @@
     letter-spacing: 3px;
 }
 
+
+@media screen and (max-width:861px){
+    .oneText {
+        margin: 10px;
+        font-size: 20px;
+        color: #5B99A6;
+        letter-spacing: 3px;
+    }
+    .img {
+        width: 130%;
+        transform: translateX(-11.5%);
+    }
+    .text {
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+}

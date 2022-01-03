@@ -5,7 +5,7 @@ import DContentCard from '../../shared/DContentCard';
 function Diary4(){
     return (
         <Layout activeMenu="Diary">
-            <DContentCard data={Data["Diary"][3]} key="Diary4"/>
+            <DContentCard data={Data["Diary"][2]} key="Diary4"/>
         </Layout>
     );
 }

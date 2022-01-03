@@ -4,3 +4,11 @@
     text-align: center;
     margin-bottom: 45px;
 }
+
+
+@media screen and (max-width:861px){
+    .boardName {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+}

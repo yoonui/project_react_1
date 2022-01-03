@@ -8,7 +8,6 @@ import Guest from './page/Guest';
 import Notice1 from './page/notice/Notice1';
 import Notice2 from './page/notice/Notice2';
 import Notice3 from './page/notice/Notice3';
-import Notice4 from './page/notice/Notice4';
 
 import Diary1 from './page/diary/Diary1';
 import Diary2 from './page/diary/Diary2';
@@ -30,7 +29,6 @@ function App() {
         <Route path="/board/notice1" element={<Notice1 />}/>
         <Route path="/board/notice2" element={<Notice2 />}/>
         <Route path="/board/notice3" element={<Notice3 />}/>
-        <Route path="/board/notice4" element={<Notice4 />}/>
         
         <Route path="/board/diary1" element={<Diary1 />}/>
         <Route path="/board/diary2" element={<Diary2 />}/>

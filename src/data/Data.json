@@ -1,86 +1,100 @@
 {
     "Notice" : [
         {
-            "id" : "notice1",
-            "title" : "제목1",
-            "date" : "2021-12-14 17:40",
-            "content" : "내용1"
+            "id" : "notice3",
+            "title" : "개발자",
+            "date" : "2021-12-30 19:12",
+            "content" : "코딩맘 (https://blog.naver.com/612_44kk)"
         },
         {
             "id" : "notice2",
-            "title" : "제목2",
-            "date" : "2021-12-14 17:40",
-            "content" : "내용2"
+            "title" : "중요 공지 2",
+            "date" : "2021-12-30 19:12",
+            "content" : "해당 사이트는 오로지 읽기만 가능할 뿐, 작성 및 수정 등의 세부적인 기능이 없음을 밝힙니다."
         },
         {
-            "id" : "notice3",
-            "title" : "제목3",
-            "date" : "2021-12-14 17:40",
-            "content" : "내용3"
-        },
-        {
-            "id" : "notice4",
-            "title" : "제목4",
-            "date" : "2021-12-14 17:40",
-            "content" : "내용4"
+            "id" : "notice1",
+            "title" : "중요 공지",
+            "date" : "2021-12-30 19:12",
+            "content" : "해당 사이트는 가상 캐릭터를 기반으로 만들어졌습니다. 등장하는 모든 캐릭터들은 실제 존재하는 캐릭터가 아님을 밝힙니다."
         }
     ],
     "Diary" : [
         {
-            "id" : "diary1",
-            "title" : "일기장제목1",
-            "date" : "2021-12-14 17:40",
-            "content" : "일기장내용1"
-        },
-        {
-            "id" : "diary2",
-            "title" : "일기장제목2",
-            "date" : "2021-12-14 17:40",
-            "content" : "일기장내용2"
-        },
-        {
-            "id" : "diary3",
-            "title" : "일기장제목3",
-            "date" : "2021-12-14 17:40",
-            "content" : "일기장내용3"
-        },
-        {
-            "id" : "diary4",
-            "title" : "일기장제목4",
-            "date" : "2021-12-14 17:40",
-            "content" : "일기장내용4"
+            "id" : "diary6",
+            "title" : "크리스마스 파티",
+            "date" : "2021-12-24 21:22",
+            "photo" : "images/diary6.jpg",
+            "content" : "귀여운 꽃게 키워줄 사람 >_<"
         },
         {
             "id" : "diary5",
-            "title" : "일기장제목5",
-            "date" : "2021-12-14 17:40",
-            "content" : "일기장내용5"
+            "title" : "스타필드 갔다옴",
+            "date" : "2021-12-12 11:40",
+            "photo" : "images/diary5.jpg",
+            "content" : "사람왕많아 미쳤어"
         },
         {
-            "id" : "diary6",
-            "title" : "일기장제목6",
-            "date" : "2021-12-14 17:40",
-            "content" : "일기장내용6"
+            "id" : "diary4",
+            "title" : "바다보고옴",
+            "date" : "2021-12-02 12:22",
+            "photo" : "images/diary4.jpg",
+            "content" : "얼어 죽어도 겨울바다 얼죽겨"
+        },
+        {
+            "id" : "diary3",
+            "title" : "청포도 케이크",
+            "date" : "2021-11-27 16:21",
+            "photo" : "images/diary3.jpg",
+            "content" : "토마토는 싫지만 청포도는 맛있어"
+        },
+        {
+            "id" : "diary2",
+            "title" : "오른쪽 못생김",
+            "date" : "2021-11-21 17:40",
+            "photo" : "images/diary2.jpg",
+            "content" : "볼일있어서 오랜만에 얼굴보고 오는 길ㅎㅎ 근데 사진찍는데 왜자꾸 귀여운척ㅡㅡ"
+        },
+        {
+            "id" : "diary1",
+            "title" : "오늘 술마셨다",
+            "date" : "2021-11-15 20:21",
+            "photo" : "images/diary1.jpg",
+            "content" : "원덕이랑 같이 술마심ㅎㅎ 마시기 전에 셀카 찍어봄"
         }
     ],
     "Guest" : [
         {
-            "id" : "guest1",
-            "no": "1",
-            "date" : "2021-12-18 18:08",
-            "content" : "방명록중얼중얼1"
-        },
-        {
-            "id" : "guest2",
-            "no": "2",
-            "date" : "2021-12-18 18:08",
-            "content" : "방명록중얼중얼2"
+            "id" : "guest4",
+            "no": "4",
+            "nickname": "정우",
+            "date" : "2021-12-27 19:22",
+            "photo" : "images/guest4.jpg",
+            "content" : "크리스마스 파티 재밌었습니다. 다음에도 같이 놀아요."
         },
         {
             "id" : "guest3",
             "no": "3",
-            "date" : "2021-12-18 18:08",
-            "content" : "방명록중얼중얼3"
+            "nickname": "ㅎr트",
+            "date" : "2021-12-26 21:13",
+            "photo" : "images/guest3.jpg",
+            "content" : "근데 얘들아 프사어떻게 바꾸니 나만 혼자 이상하잖아"
+        },
+        {
+            "id" : "guest2",
+            "no": "2",
+            "nickname": "홍 청하",
+            "date" : "2021-11-27 17:13",
+            "photo" : "images/guest2.jpg",
+            "content" : "담엔 나랑도 사진찍어줘 ( ˊ ᵕ ˋ )♡.°⑅"
+        },
+        {
+            "id" : "guest1",
+            "no": "1",
+            "nickname": "강 도윤",
+            "date" : "2021-11-16 21:20",
+            "photo" : "images/guest1.jpg",
+            "content" : "같이 찍은 셀카 올렸네ㅎㅎ 좀 부끄럽다 ;_;"
         }
     ]
 }

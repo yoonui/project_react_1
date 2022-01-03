@@ -7,7 +7,7 @@
 }
 
 .text {
-    width: 660px;
+    width: 800px;
     font-size: 30px;
     padding-bottom: 20px;
     border-bottom: 1px solid #ccc;
@@ -22,4 +22,24 @@
 .content {
     font-size: 15px;
     padding-top: 20px;
+}
+
+
+@media screen and (max-width:861px){
+    .table {
+        padding: 10px;
+    }
+    .text {
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+    .date {
+        padding-top: 3px;
+        font-size: 10px;
+    }
+    .content {
+        font-size: 12px;
+        padding-top: 15px;
+    }
+    
 }

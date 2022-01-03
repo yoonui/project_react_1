@@ -32,3 +32,20 @@
 .focused:hover {
     text-decoration: underline;
 }
+
+
+@media screen and (max-width:861px){
+    .menu {
+        margin: 30px 5% 0 5%;
+    }
+    .list {
+        font-size: 10px;
+        margin: 0 5px;
+        padding: 5px 0;
+    }
+    .focused {
+        font-size: 10px;
+        margin: 0 5px;
+        padding: 5px 0;
+    }
+}

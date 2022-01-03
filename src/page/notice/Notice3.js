@@ -5,7 +5,7 @@ import NContentCard from '../../shared/NContentCard';
 function Notice3(){
     return (
         <Layout activeMenu="Notice">
-            <NContentCard data={Data["Notice"][2]} key="Notice3"/>
+            <NContentCard data={Data["Notice"][0]} key="Notice3"/>
         </Layout>
     );
 }
